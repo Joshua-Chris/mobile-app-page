@@ -1,0 +1,65 @@
+@import 'utilities';
+@import 'buttons';
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+
+    .container, .flex {
+        display: flex;
+    }
+    %flex {
+        justify-content: center;
+        align-items: center;
+    }
+    .flex {
+        @extend %flex;
+    }
+    & > * {
+        margin: .5rem 0;
+    }
+    a, p {
+         font-size: 1rem;
+         font-weight: lighter;
+    }
+    h1 {
+         font-size: 1.8rem;
+         line-height: 4rem;
+         color: $header;
+    }
+    header {
+
+        .container {
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+    .hero {
+        .container {
+            flex-direction: column;
+            @extend %flex;
+
+            h1 {
+                font-size: 4rem;
+                max-width: 50%;
+            }
+            a, p, h1 {
+                text-align: center;
+            }
+        }
+        .hero__imgs {
+            margin: 0;
+
+            img {
+                width: 25%;
+            }
+        }
+    }
+}
+
+
+@import 'mediaqueries';
