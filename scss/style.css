@@ -7,11 +7,11 @@
 }
 
 .p-1 {
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .py-1 {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .m-2 {
@@ -23,11 +23,11 @@
 }
 
 .p-2 {
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .py-2 {
-  margin: 2rem 0;
+  padding: 2rem 0;
 }
 
 .m-3 {
@@ -39,11 +39,11 @@
 }
 
 .p-3 {
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .py-3 {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 
 .m-4 {
@@ -55,11 +55,11 @@
 }
 
 .p-4 {
-  margin: 4rem;
+  padding: 4rem;
 }
 
 .py-4 {
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 .m-5 {
@@ -71,11 +71,11 @@
 }
 
 .p-5 {
-  margin: 5rem;
+  padding: 5rem;
 }
 
 .py-5 {
-  margin: 5rem 0;
+  padding: 5rem 0;
 }
 
 .m-1 {
@@ -87,11 +87,11 @@
 }
 
 .p-1 {
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .py-1 {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .m-2 {
@@ -103,11 +103,11 @@
 }
 
 .p-2 {
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .py-2 {
-  margin: 2rem 0;
+  padding: 2rem 0;
 }
 
 .m-3 {
@@ -119,11 +119,11 @@
 }
 
 .p-3 {
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .py-3 {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 
 .m-4 {
@@ -135,11 +135,11 @@
 }
 
 .p-4 {
-  margin: 4rem;
+  padding: 4rem;
 }
 
 .py-4 {
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 .m-5 {
@@ -151,11 +151,11 @@
 }
 
 .p-5 {
-  margin: 5rem;
+  padding: 5rem;
 }
 
 .py-5 {
-  margin: 5rem 0;
+  padding: 5rem 0;
 }
 
 .menu, .btn-primary, .btn-secondary {
@@ -203,7 +203,7 @@ main {
 }
 
 main a, main p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: lighter;
   line-height: 1.7rem;
 }
@@ -234,7 +234,7 @@ main .flex, main .hero .container {
 }
 
 main header {
-  background: royalblue;
+  background: #2d4dad;
 }
 
 main header .container {
@@ -246,8 +246,13 @@ main header .container {
           align-items: center;
 }
 
+main header #menuHamburger {
+  display: none;
+}
+
 main .hero {
-  background: royalblue;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2d4dad), to(#c926d8));
+  background: linear-gradient(#2d4dad, #c926d8);
 }
 
 main .hero .container {
@@ -269,15 +274,20 @@ main .hero .container a, main .hero .container p, main .hero .container h1 {
 }
 
 main .hero .container > * {
-  margin: 1rem 0;
+  margin: .8rem 0;
 }
 
-main .hero .hero__imgs {
-  margin: 0;
+main .hero .container .hero__text {
+  max-width: 60%;
 }
 
-main .hero .hero__imgs img {
+main .hero .hero__img {
+  margin-bottom: -8rem;
+}
+
+main .hero .hero__img img {
   width: 25%;
+  margin: 0;
 }
 
 .m-1 {
@@ -289,11 +299,11 @@ main .hero .hero__imgs img {
 }
 
 .p-1 {
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .py-1 {
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .m-2 {
@@ -305,11 +315,11 @@ main .hero .hero__imgs img {
 }
 
 .p-2 {
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .py-2 {
-  margin: 2rem 0;
+  padding: 2rem 0;
 }
 
 .m-3 {
@@ -321,11 +331,11 @@ main .hero .hero__imgs img {
 }
 
 .p-3 {
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .py-3 {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 
 .m-4 {
@@ -337,11 +347,11 @@ main .hero .hero__imgs img {
 }
 
 .p-4 {
-  margin: 4rem;
+  padding: 4rem;
 }
 
 .py-4 {
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 .m-5 {
@@ -353,10 +363,37 @@ main .hero .hero__imgs img {
 }
 
 .p-5 {
-  margin: 5rem;
+  padding: 5rem;
 }
 
 .py-5 {
-  margin: 5rem 0;
+  padding: 5rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  main header {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  main header nav {
+    display: none;
+  }
+  main header #menuHamburger {
+    display: block;
+    width: 2.7rem;
+  }
+  main .hero .container h1 {
+    max-width: 70%;
+  }
+  main .hero .container .hero__text {
+    max-width: 70%;
+    font-size: 1.1rem;
+  }
+  main .hero .hero__img {
+    margin-bottom: -8rem;
+  }
+  main .hero .hero__img img {
+    width: 30%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
