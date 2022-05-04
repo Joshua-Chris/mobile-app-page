@@ -8,6 +8,7 @@ Live Sass Compiler
 
 Other resources:
 icon8.com for icons and related materials
+flaticon.com
 etc
 
 Cheers!

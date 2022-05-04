@@ -158,7 +158,7 @@
   padding: 5rem 0;
 }
 
-.menu, .btn-primary, .btn-secondary {
+.menu, .btn-primary, .btn-secondary, .appStore {
   display: inline-block;
   border-radius: 5px;
   padding: 0.5rem 1.4rem;
@@ -169,7 +169,7 @@
   text-shadow: none;
 }
 
-.menu:hover, .btn-primary:hover, .btn-secondary:hover {
+.menu:hover, .btn-primary:hover, .btn-secondary:hover, .appStore:hover {
   -webkit-transform: scale(0.97);
           transform: scale(0.97);
 }
@@ -190,6 +190,27 @@
   color: #444;
 }
 
+.appStore {
+  background-color: #000;
+}
+
+.appStore img {
+  width: 2rem;
+}
+
+.appStore p {
+  margin: 0 0 0 .8rem;
+  font-size: .9rem;
+  line-height: 1.1rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+.appStore p span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 * {
   margin: 0 auto;
   padding: 0 auto;
@@ -206,6 +227,7 @@ main a, main p {
   font-size: 1.2rem;
   font-weight: lighter;
   line-height: 1.7rem;
+  text-decoration: none;
 }
 
 main h1 {
@@ -285,9 +307,17 @@ main .hero .hero__img {
   margin-bottom: -8rem;
 }
 
+main .hero .hero__img .img__lg {
+  width: 30%;
+}
+
 main .hero .hero__img img {
   width: 25%;
   margin: 0;
+}
+
+main .section2 .container {
+  margin-top: 8rem;
 }
 
 .m-1 {
@@ -388,9 +418,6 @@ main .hero .hero__img img {
   main .hero .container .hero__text {
     max-width: 70%;
     font-size: 1.1rem;
-  }
-  main .hero .hero__img {
-    margin-bottom: -8rem;
   }
   main .hero .hero__img img {
     width: 30%;

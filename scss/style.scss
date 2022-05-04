@@ -14,6 +14,7 @@ main {
         font-size: 1.2rem;
         font-weight: lighter;
         line-height: 1.7rem;
+        text-decoration: none;
     }
     h1 {
         font-size: 1.8rem;
@@ -71,10 +72,21 @@ main {
         .hero__img {
             margin-bottom: -8rem;
 
+            .img__lg {
+                width: 30%;
+            }
+            
             img {
                 width: 25%;
                 margin: 0;
             }
+        }
+    }
+
+    // section 2
+    .section2 {
+        .container {
+            margin-top: 8rem;
         }
     }
 }
