@@ -6,12 +6,20 @@
   margin: 1rem 0;
 }
 
+.mx-1 {
+  margin: 0 1rem;
+}
+
 .p-1 {
   padding: 1rem;
 }
 
 .py-1 {
   padding: 1rem 0;
+}
+
+.px-1 {
+  padding: 0 1rem;
 }
 
 .m-2 {
@@ -22,12 +30,20 @@
   margin: 2rem 0;
 }
 
+.mx-2 {
+  margin: 0 2rem;
+}
+
 .p-2 {
   padding: 2rem;
 }
 
 .py-2 {
   padding: 2rem 0;
+}
+
+.px-2 {
+  padding: 0 2rem;
 }
 
 .m-3 {
@@ -38,12 +54,20 @@
   margin: 3rem 0;
 }
 
+.mx-3 {
+  margin: 0 3rem;
+}
+
 .p-3 {
   padding: 3rem;
 }
 
 .py-3 {
   padding: 3rem 0;
+}
+
+.px-3 {
+  padding: 0 3rem;
 }
 
 .m-4 {
@@ -54,12 +78,20 @@
   margin: 4rem 0;
 }
 
+.mx-4 {
+  margin: 0 4rem;
+}
+
 .p-4 {
   padding: 4rem;
 }
 
 .py-4 {
   padding: 4rem 0;
+}
+
+.px-4 {
+  padding: 0 4rem;
 }
 
 .m-5 {
@@ -70,12 +102,20 @@
   margin: 5rem 0;
 }
 
+.mx-5 {
+  margin: 0 5rem;
+}
+
 .p-5 {
   padding: 5rem;
 }
 
 .py-5 {
   padding: 5rem 0;
+}
+
+.px-5 {
+  padding: 0 5rem;
 }
 
 .m-1 {
@@ -86,12 +126,20 @@
   margin: 1rem 0;
 }
 
+.mx-1 {
+  margin: 0 1rem;
+}
+
 .p-1 {
   padding: 1rem;
 }
 
 .py-1 {
   padding: 1rem 0;
+}
+
+.px-1 {
+  padding: 0 1rem;
 }
 
 .m-2 {
@@ -102,12 +150,20 @@
   margin: 2rem 0;
 }
 
+.mx-2 {
+  margin: 0 2rem;
+}
+
 .p-2 {
   padding: 2rem;
 }
 
 .py-2 {
   padding: 2rem 0;
+}
+
+.px-2 {
+  padding: 0 2rem;
 }
 
 .m-3 {
@@ -118,12 +174,20 @@
   margin: 3rem 0;
 }
 
+.mx-3 {
+  margin: 0 3rem;
+}
+
 .p-3 {
   padding: 3rem;
 }
 
 .py-3 {
   padding: 3rem 0;
+}
+
+.px-3 {
+  padding: 0 3rem;
 }
 
 .m-4 {
@@ -134,12 +198,20 @@
   margin: 4rem 0;
 }
 
+.mx-4 {
+  margin: 0 4rem;
+}
+
 .p-4 {
   padding: 4rem;
 }
 
 .py-4 {
   padding: 4rem 0;
+}
+
+.px-4 {
+  padding: 0 4rem;
 }
 
 .m-5 {
@@ -150,12 +222,20 @@
   margin: 5rem 0;
 }
 
+.mx-5 {
+  margin: 0 5rem;
+}
+
 .p-5 {
   padding: 5rem;
 }
 
 .py-5 {
   padding: 5rem 0;
+}
+
+.px-5 {
+  padding: 0 5rem;
 }
 
 .menu, .btn-primary, .btn-secondary, .appStore {
@@ -328,12 +408,20 @@ main .section2 .container {
   margin: 1rem 0;
 }
 
+.mx-1 {
+  margin: 0 1rem;
+}
+
 .p-1 {
   padding: 1rem;
 }
 
 .py-1 {
   padding: 1rem 0;
+}
+
+.px-1 {
+  padding: 0 1rem;
 }
 
 .m-2 {
@@ -344,12 +432,20 @@ main .section2 .container {
   margin: 2rem 0;
 }
 
+.mx-2 {
+  margin: 0 2rem;
+}
+
 .p-2 {
   padding: 2rem;
 }
 
 .py-2 {
   padding: 2rem 0;
+}
+
+.px-2 {
+  padding: 0 2rem;
 }
 
 .m-3 {
@@ -360,12 +456,20 @@ main .section2 .container {
   margin: 3rem 0;
 }
 
+.mx-3 {
+  margin: 0 3rem;
+}
+
 .p-3 {
   padding: 3rem;
 }
 
 .py-3 {
   padding: 3rem 0;
+}
+
+.px-3 {
+  padding: 0 3rem;
 }
 
 .m-4 {
@@ -376,12 +480,20 @@ main .section2 .container {
   margin: 4rem 0;
 }
 
+.mx-4 {
+  margin: 0 4rem;
+}
+
 .p-4 {
   padding: 4rem;
 }
 
 .py-4 {
   padding: 4rem 0;
+}
+
+.px-4 {
+  padding: 0 4rem;
 }
 
 .m-5 {
@@ -392,12 +504,20 @@ main .section2 .container {
   margin: 5rem 0;
 }
 
+.mx-5 {
+  margin: 0 5rem;
+}
+
 .p-5 {
   padding: 5rem;
 }
 
 .py-5 {
   padding: 5rem 0;
+}
+
+.px-5 {
+  padding: 0 5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -421,6 +541,15 @@ main .section2 .container {
   }
   main .hero .hero__img img {
     width: 30%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .section2 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
